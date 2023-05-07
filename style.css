@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.circle-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.circle-wrapper .title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.circle-wrapper ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.circle-wrapper ul li {
+    list-style: none;
+    border-radius: 50%;
+    border: solid 2px;
+    width: 100px;
+    height: 100px;
+}
+
+.circle-wrapper ul li.grey-circle {
+    background-color: gray;
+}
+
+.circle-wrapper ul li.white-circle {
+    background-color: white;
+}
+
+.circle-wrapper ul li.blue-circle {
+    background-color: blue;
+}
+
+.circle-wrapper ul li.yellow-circle {
+    background-color: yellow;
+}
+
+.circle-wrapper .description {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
